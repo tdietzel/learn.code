@@ -50,12 +50,11 @@ const expect = function(val) {
   };
 };
 ```
-/**
 * @param {string} val
 * @return {Object}
 * expect(5).toBe(5); // true
 * expect(5).notToBe(5); // throws "Equal"
-*/
+
 ### Solved 3/21/24
 ```
 const filter = function(arr, fn) {
@@ -66,14 +65,12 @@ const filter = function(arr, fn) {
   return filteredArr;
 };
 ```
-/**
- * @param {number[]} arr
- * @param {Function} fn
- * @return {number[]}
-*/
-// >> int arr
-// >> filtering function, fn
-// << return filteredArr
+// @param {number[]} arr
+// @param {Function} fn
+// @return {number[]}
+// int arr
+// filtering function, fn
+// return filteredArr
 // filteredArr only where fn(arr[i], i) = True
 
 ---
@@ -102,9 +99,9 @@ function isPalindrome(x: number): boolean {
   return true;
 }
 ```
-// >> x: int
-// << if(x === palindrome) {return true}
-// >> else(return false)
+// x: int
+// if(x === palindrome) {return true}
+// else(return false)
 // for loop (i) starting from x[0]
 // for loop (j) starting from x.length - 1
 // if (i !== j) {return false}
@@ -121,11 +118,9 @@ async function sleep(millis: number): Promise<void> {
   })
 }
 ```
-/** 
- * let t = Date.now()
- * sleep(100).then(() => console.log(Date.now() - t)) // 100
- */
-// >> millis: number (positive)
+* let t = Date.now()
+* sleep(100).then(() => console.log(Date.now() - t)) // 100
+// millis: number (positive)
 // async function sleep(millis: number)
 ### Solved 3/27/24
 ```
@@ -161,8 +156,8 @@ function romanToInt(s: string): number {
 // C             100
 // D             500
 // M             1000
-// >> s: string
-// << number
+// s: string
+// number
 // 1. split the string
 // 2. compare the symbol with array.includes
 // 3. create dictionary to hold symbols and values
@@ -177,8 +172,6 @@ function argumentsLength(...args: JSONValue[]): number {
   });
   return argsPassed;
 };
-/**
 * argumentsLength(1, 2, 3); // 3
-*/
 // function argumentsLength
 // << args: number

@@ -1,6 +1,6 @@
 # Learning to Code Repository
 
-Welcome to my learning to code repository! This repository serves as a centralized hub where I track all my resources and projects while I'm learning to code in different languages and topics. Each branch represents a different topic or language.
+Welcome to my learning to code repository! This repository serves as a centralized hub where I track all my resources and projects while I'm learning to code in different languages and topics.
 
 ## About
 
